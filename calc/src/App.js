@@ -3,7 +3,7 @@ import { useState } from "react";
 
 function App() {
 
-  let [oldExpression, setOldExpression] = useState("");
+  let [oldExpression, setOldExpression] = useState("");  //object changes the answers for us and setter changes and informs react so that it displays the updated answer
   let [expression, setExpression] = useState("Faggot"); //expression=object setExpression= setter 
                                                     //object assigned the value and setter updates on the screen   
   let [prev, setPrev] = useState("ANS");                                
